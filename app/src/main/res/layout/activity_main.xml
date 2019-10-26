@@ -160,6 +160,7 @@
 
     <Button
         android:id="@+id/equalbtn"
+        android:onClick="equalbtn"
         android:layout_width="92dp"
         android:layout_height="64dp"
         android:layout_marginStart="8dp"
@@ -178,6 +179,7 @@
 
     <Button
         android:id="@+id/divisionbtn"
+        android:onClick="divideBtn"
         android:layout_width="79dp"
         android:layout_height="64dp"
         android:layout_marginStart="8dp"
@@ -195,7 +197,26 @@
         app:layout_constraintVertical_bias="0.766" />
 
     <Button
+        android:id="@+id/sqrtBtn"
+        android:layout_width="79dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/sqrtbtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.887" />
+
+    <Button
         android:id="@+id/multiplybtn"
+        android:onClick="multipletBtn"
         android:layout_width="79dp"
         android:layout_height="64dp"
         android:layout_marginStart="8dp"
@@ -214,6 +235,7 @@
 
     <Button
         android:id="@+id/addbtn"
+        android:onClick="addBtn"
         android:layout_width="79dp"
         android:layout_height="64dp"
         android:layout_marginStart="8dp"
@@ -232,6 +254,7 @@
 
     <Button
         android:id="@+id/subtractbtn"
+        android:onClick="subtractBtn"
         android:layout_width="79dp"
         android:layout_height="64dp"
         android:layout_marginStart="8dp"

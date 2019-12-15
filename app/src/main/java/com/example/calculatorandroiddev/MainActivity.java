@@ -8,7 +8,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    CalculaterBackEnd c = new CalculaterBackEnd();
+    CalculatorBackEnd c = new CalculatorBackEnd();
     double var1 = 0;//Store the data for the processes to take place
     double var2 = 0;
     int universalcheck = 0;
